@@ -1,1 +1,1 @@
-Location to upload movies created by Aerospace's Satellite Orbital Analysis Program (SOAP)
+This was intended to be the location to upload movies created by Aerospace's Satellite Orbital Analysis Program (SOAP). However, GitHub is restricted to files less than 25 MB, which is an issue. I'll identify a different location on line where I can reliably store them and will provide a URL to that location in the file when I have found a suitable longterm storage location.
