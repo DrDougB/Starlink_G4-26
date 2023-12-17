@@ -1,0 +1,62 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "12.6.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "ME5960_Project AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/ME5960_Project" Type = "IntervalList">
+                <Interval Name = "ME5960_Project AvailabilityIntervals" StartTime = "9 Aug 2022 18:00:00.000" StopTime = "11 Apr 2023 23:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/ME5960_Project/Satellite/STARLINK-4476_53419;/Application/STK/Scenario/ME5960_Project/Satellite/STARLINK-4304_53414" Type = "IntervalList">
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "9 Aug 2022 18:00:00.000" StopTime = "27 Aug 2022 17:59:54.528" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "27 Aug 2022 18:10:59.549" StopTime = "27 Aug 2022 19:24:56.837" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "27 Aug 2022 19:43:46.541" StopTime = "27 Aug 2022 20:51:14.190" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "27 Aug 2022 21:15:27.627" StopTime = "27 Aug 2022 22:18:05.329" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "27 Aug 2022 22:46:42.332" StopTime = "27 Aug 2022 23:45:16.900" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 00:17:42.313" StopTime = "28 Aug 2022 01:12:42.173" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 01:48:32.955" StopTime = "28 Aug 2022 02:40:17.073" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 03:19:17.301" StopTime = "28 Aug 2022 04:07:58.881" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 04:49:57.311" StopTime = "28 Aug 2022 05:35:45.628" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 06:20:34.387" StopTime = "28 Aug 2022 07:03:35.831" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 07:51:09.637" StopTime = "28 Aug 2022 08:31:28.267" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 09:21:44.007" StopTime = "28 Aug 2022 09:59:21.878" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 10:52:18.383" StopTime = "28 Aug 2022 11:27:15.660" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 12:22:53.705" StopTime = "28 Aug 2022 12:55:08.597" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 13:53:31.046" StopTime = "28 Aug 2022 14:22:59.525" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 15:24:11.777" StopTime = "28 Aug 2022 15:50:47.026" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 16:54:57.841" StopTime = "28 Aug 2022 17:18:29.080" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 18:25:52.357" StopTime = "28 Aug 2022 18:46:02.540" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 19:57:01.226" StopTime = "28 Aug 2022 20:13:21.443" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 21:28:39.396" StopTime = "28 Aug 2022 21:40:10.816" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "28 Aug 2022 23:02:39.115" StopTime = "28 Aug 2022 23:04:38.382" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "18 Sep 2022 19:41:09.038" StopTime = "18 Sep 2022 20:17:12.116" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "18 Sep 2022 20:59:15.973" StopTime = "18 Sep 2022 21:57:48.020" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "18 Sep 2022 22:18:44.364" StopTime = "20 Sep 2022 04:20:49.178" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "20 Sep 2022 04:40:04.411" StopTime = "20 Sep 2022 05:37:27.266" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "20 Sep 2022 06:17:13.444" StopTime = "20 Sep 2022 06:42:59.917" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "27 Sep 2022 20:27:15.176" StopTime = "27 Sep 2022 21:09:01.183" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "27 Sep 2022 21:24:16.884" StopTime = "28 Sep 2022 02:56:56.355" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "3 Oct 2022 07:38:22.112" StopTime = "3 Oct 2022 12:24:41.703" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "7 Oct 2022 09:52:53.123" StopTime = "7 Oct 2022 14:06:48.438" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "10 Oct 2022 17:30:57.915" StopTime = "10 Oct 2022 21:25:31.742" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "13 Oct 2022 12:58:53.875" StopTime = "13 Oct 2022 16:36:20.186" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "15 Oct 2022 23:46:13.219" StopTime = "16 Oct 2022 03:09:28.188" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "18 Oct 2022 03:58:28.773" StopTime = "18 Oct 2022 07:12:02.701" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "20 Oct 2022 03:08:15.221" StopTime = "20 Oct 2022 06:11:39.865" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "21 Oct 2022 22:07:57.805" StopTime = "22 Oct 2022 01:05:56.332" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "23 Oct 2022 13:45:48.537" StopTime = "23 Oct 2022 16:35:54.215" />
+                <Interval Name = "Satellite-STARLINK-4476_53419-To-Satellite-STARLINK-4304_53414 AccessIntervals" StartTime = "25 Oct 2022 02:32:55.455" StopTime = "25 Oct 2022 05:17:58.313" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-Starlink22-To-Satellite-Starlink21 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/ME5960_Project/Satellite/Starlink22;/Application/STK/Scenario/ME5960_Project/Satellite/Starlink21" Type = "IntervalList">
+                <Interval Name = "Satellite-Starlink22-To-Satellite-Starlink21 AccessIntervals" StartTime = "10 Aug 2022 02:29:24.000" StopTime = "10 Aug 2022 14:29:24.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Aircraft-AC536-To-Satellite-Starlink51 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/ME5960_Project/Aircraft/AC536;/Application/STK/Scenario/ME5960_Project/Satellite/Starlink51" Type = "IntervalList">
+                <Interval Name = "Aircraft-AC536-To-Satellite-Starlink51 AccessIntervals" StartTime = "10 Aug 2022 06:43:29.461" StopTime = "10 Aug 2022 06:51:37.413" />
+                <Interval Name = "Aircraft-AC536-To-Satellite-Starlink51 AccessIntervals" StartTime = "10 Aug 2022 08:20:03.486" StopTime = "10 Aug 2022 08:23:41.445" />
+                <Interval Name = "Aircraft-AC536-To-Satellite-Starlink51 AccessIntervals" StartTime = "10 Aug 2022 11:33:31.904" StopTime = "10 Aug 2022 11:41:42.849" />
+                <Interval Name = "Aircraft-AC536-To-Satellite-Starlink51 AccessIntervals" StartTime = "10 Aug 2022 13:07:41.341" StopTime = "10 Aug 2022 13:15:26.492" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/ME5960_Project" GlobalStartOffset = "0.000000" GlobalStartTime = "9 Aug 2022 18:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "11 Apr 2023 23:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>
