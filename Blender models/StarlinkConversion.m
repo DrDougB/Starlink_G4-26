@@ -1,5 +1,5 @@
 % John Stilley, Nick Snell
-% Starlink Data Conversion 
+% Matlab Starlink Data Conversion Script to make the coordinates compatible with Blender
 % November 29th, 2023
 
 % Reads data from STK spreadsheet
