@@ -1,0 +1,547 @@
+AC Path,Star,Look (deg), El (deg)
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Pollux,-2.482428262,-2.972055181
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Castor,-3.342869426,1.450715686
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Alhena,16.76401143,-0.073517184
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Castor B,-3.343566921,1.450344514
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Tejat,14.42782807,6.562078079
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Mebsuta,9.279486691,4.665403691
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Propus,15.6423801,7.987838415
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Alzirr,18.14985144,-3.777020188
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Wasat,5.823716255,-3.503423875
+.\1st_photo\ACA536-notsmoothed-ph1.csv,kappa-Gem,0.074879456,-5.560348856
+.\1st_photo\ACA536-notsmoothed-ph1.csv,lambda-Gem,10.01418423,-7.030092269
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Theta-Gem,1.37100669,9.144584688
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Iota-Gem,0.860094004,-0.212367816
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Mekbuda,9.454403597,-1.842888166
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Upsilon-Gem,-0.174694337,-2.419161211
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Nu-Gem,15.26905203,4.002801498
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Rho-Gem,-2.420034028,2.170158734
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Sigma-Gem,-2.720552774,-2.038059531
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Tau-Gem,1.411255069,3.768833053
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Jishui,-5.868415638,2.796428008
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Chi-Gem,-5.412834979,-5.744550179
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Phi-Gem,-3.032025836,-5.113357347
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Pi-Gem,-6.385911682,0.775161492
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Omega-Gem,7.095064621,0.963469205
+.\1st_photo\ACA536-notsmoothed-ph1.csv,alpha-Lyn,-23.04026887,-9.272587442
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Gaia,-23.95592977,-7.146660746
+.\1st_photo\ACA536-notsmoothed-ph1.csv,HD 77912,-21.11064348,-7.185558806
+.\1st_photo\ACA536-notsmoothed-ph1.csv,10 Ursae Maj,-23.19292506,-1.094896534
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Alsciaukat,-18.09529924,3.854571796
+.\1st_photo\ACA536-notsmoothed-ph1.csv,21 Lyncis,-14.59880002,14.72267945
+.\1st_photo\ACA536-notsmoothed-ph1.csv,15 Lyncis,-18.95908649,24.02692796
+.\1st_photo\ACA536-notsmoothed-ph1.csv,2 Lyncis,-16.48971074,28.4204614
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Capella,2.013335869,30.99580896
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Menkalinan,-1.152364206,23.95678376
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Mahasim,5.721868897,19.58557217
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Hassaleh,17.04906758,28.13994477
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Almaaz,5.659769725,32.37091136
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Haedus,7.92040204,30.45214988
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Saclateni,8.49479034,31.05120839
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Delta Aurigae,-10.10106551,28.75021193
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Nu Aurigae,5.001272688,22.01638828
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Pi Aurigae,-2.107769765,24.43040216
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Kappa Aurigae,10.06778488,12.32342272
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Tau Aurigae,5.241168291,22.40776707
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Lambda Aurigae,7.735214523,27.80742827
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Chi Aurigae,13.49592784,21.28015804
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Upsilon Aurigae,6.694378909,21.0551268
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 2 Aurigae,-3.519216491,16.69345921
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Mu Aurigae,9.942039346,27.96040726
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 1 Aurigae,-7.693010675,22.78352906
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Omega Aurigae,12.09735641,30.09490477
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Xi Aurigae,-11.17853723,30.01185591
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 7 Aurigae,-4.360555863,14.61059869
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Sigma Aurigae,9.730551338,25.49681972
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 4 Aurigae,-5.62357817,17.44149226
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Phi Aurigae,12.07567231,23.42874047
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 6 Aurigae,-9.651469309,19.49399109
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Rho Aurigae,5.773980976,28.21245125
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 5 Aurigae,-5.29174035,16.33354522
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 3 Aurigae,-1.369648961,15.13608581
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Omicron Aurigae,-4.503190663,28.43752786
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 9 Aurigae,-8.608686917,16.73937779
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi 8 Aurigae,-2.233158467,11.99934993
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Alioth,-61.85748267,6.79847733
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Dubhe,-47.19725258,11.61780798
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Alkaid,-71.71272991,3.180659997
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Mizar,-66.24420766,7.042086227
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Merak,-46.25027743,6.325738484
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Phecda,-53.58730163,3.321913252
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Psi-Ursae Maj,-46.08025999,-5.620816436
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Tania Australis,-36.97533065,-6.9681019
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Talitha,-25.88678224,4.686739074
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Theta-Ursae Maj,-32.39141083,5.438673076
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Megrez,-56.39006865,6.891527062
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Muscida,-29.38833091,17.57812511
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Tania Borealis,-36.41963782,-5.34472906
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Alula Borealis,-46.75387503,-17.13351772
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Alkaphrah,-26.09556158,3.548749923
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Taiyangshou,-52.53548598,-2.627381024
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Upsilon-Ursae Maj,-37.66758989,11.22947918
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Mizar B,-66.24718529,7.039383539
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Alula Australis,-46.55678661,-18.68851622
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Phi-Ursae Maj,-36.00728721,6.530654376
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Pi-2 Ursae Maj,-32.61281957,19.81755696
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Omega-Ursae Maj,-43.08798982,-6.545025879
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Tau-Ursae Maj,-35.153056,17.32052246
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Rho-Ursae Maj,-36.58550452,21.30266376
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Sigma-2 Ursae Maj,-37.00466217,20.48935603
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Xi-Ursae Maj B,-46.5564571,-18.68867453
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Sigma-1 Ursae Maj,-36.68413434,20.36298489
+.\1st_photo\ACA536-notsmoothed-ph1.csv,Pi-1 Ursae Maj,-32.94934393,20.44384504
+.\1st_photo\ACA536-ph1.csv,Pollux,-1.680154085,-2.937315653
+.\1st_photo\ACA536-ph1.csv,Castor,-2.541157732,1.4853445
+.\1st_photo\ACA536-ph1.csv,Alhena,17.56591404,-0.038375836
+.\1st_photo\ACA536-ph1.csv,Castor B,-2.541855189,1.484973235
+.\1st_photo\ACA536-ph1.csv,Tejat,15.2301163,6.597383395
+.\1st_photo\ACA536-ph1.csv,Mebsuta,10.08140388,4.700862971
+.\1st_photo\ACA536-ph1.csv,Propus,16.44485701,8.023065781
+.\1st_photo\ACA536-ph1.csv,Alzirr,18.95139151,-3.742003722
+.\1st_photo\ACA536-ph1.csv,Wasat,6.6257463,-3.46802175
+.\1st_photo\ACA536-ph1.csv,kappa-Gem,0.877325483,-5.525326716
+.\1st_photo\ACA536-ph1.csv,lambda-Gem,10.8160206,-6.994637462
+.\1st_photo\ACA536-ph1.csv,Theta-Gem,2.172146394,9.179723399
+.\1st_photo\ACA536-ph1.csv,Iota-Gem,1.662018487,-0.177272902
+.\1st_photo\ACA536-ph1.csv,Mekbuda,10.25630351,-1.807429422
+.\1st_photo\ACA536-ph1.csv,Upsilon-Gem,0.62745216,-2.384163602
+.\1st_photo\ACA536-ph1.csv,Nu-Gem,16.07122782,4.038054519
+.\1st_photo\ACA536-ph1.csv,Rho-Gem,-1.618396911,2.204905943
+.\1st_photo\ACA536-ph1.csv,Sigma-Gem,-1.918389613,-2.003349857
+.\1st_photo\ACA536-ph1.csv,Tau-Gem,2.212849004,3.803975117
+.\1st_photo\ACA536-ph1.csv,Jishui,-5.066958022,2.830686941
+.\1st_photo\ACA536-ph1.csv,Chi-Gem,-4.610037542,-5.71021948
+.\1st_photo\ACA536-ph1.csv,Phi-Gem,-2.229454939,-5.078687591
+.\1st_photo\ACA536-ph1.csv,Pi-Gem,-5.584135228,0.809336424
+.\1st_photo\ACA536-ph1.csv,Omega-Gem,7.896950789,0.998907347
+.\1st_photo\ACA536-ph1.csv,alpha-Lyn,-22.2352884,-9.242556155
+.\1st_photo\ACA536-ph1.csv,Gaia,-23.15160367,-7.116934714
+.\1st_photo\ACA536-ph1.csv,HD 77912,-20.30649283,-7.154909806
+.\1st_photo\ACA536-ph1.csv,10 Ursae Maj,-22.39066089,-1.064916038
+.\1st_photo\ACA536-ph1.csv,Alsciaukat,-17.29448778,3.886115964
+.\1st_photo\ACA536-ph1.csv,21 Lyncis,-13.80063989,14.75515238
+.\1st_photo\ACA536-ph1.csv,15 Lyncis,-18.16461711,24.05822345
+.\1st_photo\ACA536-ph1.csv,2 Lyncis,-15.6960935,28.45244605
+.\1st_photo\ACA536-ph1.csv,Capella,2.812618865,31.03099875
+.\1st_photo\ACA536-ph1.csv,Menkalinan,-0.353259344,23.99167877
+.\1st_photo\ACA536-ph1.csv,Mahasim,6.523035585,19.62097064
+.\1st_photo\ACA536-ph1.csv,Hassaleh,17.85360546,28.17506199
+.\1st_photo\ACA536-ph1.csv,Almaaz,6.460333507,32.40630754
+.\1st_photo\ACA536-ph1.csv,Haedus,8.721885832,30.48760206
+.\1st_photo\ACA536-ph1.csv,Saclateni,9.296478127,31.086666
+.\1st_photo\ACA536-ph1.csv,Delta Aurigae,-9.30555644,28.78370158
+.\1st_photo\ACA536-ph1.csv,Nu Aurigae,5.802158241,22.05175779
+.\1st_photo\ACA536-ph1.csv,Pi Aurigae,-1.30899169,24.46518722
+.\1st_photo\ACA536-ph1.csv,Kappa Aurigae,10.86982544,12.35887697
+.\1st_photo\ACA536-ph1.csv,Tau Aurigae,6.042094848,22.44314684
+.\1st_photo\ACA536-ph1.csv,Lambda Aurigae,8.536681405,27.84287794
+.\1st_photo\ACA536-ph1.csv,Chi Aurigae,14.29889879,21.31551239
+.\1st_photo\ACA536-ph1.csv,Upsilon Aurigae,7.495716574,21.09055546
+.\1st_photo\ACA536-ph1.csv,Psi 2 Aurigae,-2.719632175,16.72806424
+.\1st_photo\ACA536-ph1.csv,Mu Aurigae,10.74422897,27.99586276
+.\1st_photo\ACA536-ph1.csv,Psi 1 Aurigae,-6.895406409,22.81747898
+.\1st_photo\ACA536-ph1.csv,Omega Aurigae,12.90034523,30.13031518
+.\1st_photo\ACA536-ph1.csv,Xi Aurigae,-10.38372917,30.04512041
+.\1st_photo\ACA536-ph1.csv,Psi 7 Aurigae,-3.560800478,14.64508638
+.\1st_photo\ACA536-ph1.csv,Sigma Aurigae,10.53264981,25.53227694
+.\1st_photo\ACA536-ph1.csv,Psi 4 Aurigae,-4.824502438,17.47578979
+.\1st_photo\ACA536-ph1.csv,Phi Aurigae,12.8783825,23.46415159
+.\1st_photo\ACA536-ph1.csv,Psi 6 Aurigae,-8.853597997,19.52757139
+.\1st_photo\ACA536-ph1.csv,Rho Aurigae,6.574789106,28.24785159
+.\1st_photo\ACA536-ph1.csv,Psi 5 Aurigae,-4.492416097,16.36789434
+.\1st_photo\ACA536-ph1.csv,Psi 3 Aurigae,-0.569484153,15.17095673
+.\1st_photo\ACA536-ph1.csv,Omicron Aurigae,-3.705798386,28.47199475
+.\1st_photo\ACA536-ph1.csv,Psi 9 Aurigae,-7.810024487,16.7731599
+.\1st_photo\ACA536-ph1.csv,Psi 8 Aurigae,-1.432732438,12.03411994
+.\1st_photo\ACA536-ph1.csv,Alioth,-61.05957451,6.810055331
+.\1st_photo\ACA536-ph1.csv,Dubhe,-46.40141463,11.63749096
+.\1st_photo\ACA536-ph1.csv,Alkaid,-70.91276954,3.18633118
+.\1st_photo\ACA536-ph1.csv,Mizar,-65.44654066,7.051066663
+.\1st_photo\ACA536-ph1.csv,Merak,-45.45160852,6.345906971
+.\1st_photo\ACA536-ph1.csv,Phecda,-52.78722735,3.338192434
+.\1st_photo\ACA536-ph1.csv,Psi-Ursae Maj,-45.27549359,-5.600559945
+.\1st_photo\ACA536-ph1.csv,Tania Australis,-36.17030848,-6.943495057
+.\1st_photo\ACA536-ph1.csv,Talitha,-25.08654639,4.715796133
+.\1st_photo\ACA536-ph1.csv,Theta-Ursae Maj,-31.59174506,5.465240603
+.\1st_photo\ACA536-ph1.csv,Megrez,-55.59206472,6.906245812
+.\1st_photo\ACA536-ph1.csv,Muscida,-28.59341875,17.6058856
+.\1st_photo\ACA536-ph1.csv,Tania Borealis,-35.61536991,-5.319875918
+.\1st_photo\ACA536-ph1.csv,Alula Borealis,-45.94292867,-17.11360321
+.\1st_photo\ACA536-ph1.csv,Alkaphrah,-25.29492651,3.577732803
+.\1st_photo\ACA536-ph1.csv,Taiyangshou,-51.73215174,-2.610525431
+.\1st_photo\ACA536-ph1.csv,Upsilon-Ursae Maj,-36.87081645,11.2537739
+.\1st_photo\ACA536-ph1.csv,Mizar B,-65.44951671,7.048362192
+.\1st_photo\ACA536-ph1.csv,Alula Australis,-45.74498414,-18.66850068
+.\1st_photo\ACA536-ph1.csv,Phi-Ursae Maj,-35.2082605,6.555687749
+.\1st_photo\ACA536-ph1.csv,Pi-2 Ursae Maj,-31.81941918,19.84403225
+.\1st_photo\ACA536-ph1.csv,Omega-Ursae Maj,-42.28287468,-6.52327765
+.\1st_photo\ACA536-ph1.csv,Tau-Ursae Maj,-34.35886982,17.34592642
+.\1st_photo\ACA536-ph1.csv,Rho-Ursae Maj,-35.79349503,21.32744087
+.\1st_photo\ACA536-ph1.csv,Sigma-2 Ursae Maj,-36.21230748,20.51394698
+.\1st_photo\ACA536-ph1.csv,Xi-Ursae Maj B,-45.74465458,-18.66865883
+.\1st_photo\ACA536-ph1.csv,Sigma-1 Ursae Maj,-35.89166427,20.38771839
+.\1st_photo\ACA536-ph1.csv,Pi-1 Ursae Maj,-32.15629393,20.47018125
+.\1st_photo\ACA536-with alt error-ph1.csv,Pollux,-1.680141439,-2.937315653
+.\1st_photo\ACA536-with alt error-ph1.csv,Castor,-2.541145086,1.4853445
+.\1st_photo\ACA536-with alt error-ph1.csv,Alhena,17.56592668,-0.038375836
+.\1st_photo\ACA536-with alt error-ph1.csv,Castor B,-2.541842543,1.484973235
+.\1st_photo\ACA536-with alt error-ph1.csv,Tejat,15.23012895,6.597383395
+.\1st_photo\ACA536-with alt error-ph1.csv,Mebsuta,10.08141653,4.700862971
+.\1st_photo\ACA536-with alt error-ph1.csv,Propus,16.44486966,8.023065781
+.\1st_photo\ACA536-with alt error-ph1.csv,Alzirr,18.95140415,-3.742003722
+.\1st_photo\ACA536-with alt error-ph1.csv,Wasat,6.625758947,-3.46802175
+.\1st_photo\ACA536-with alt error-ph1.csv,kappa-Gem,0.877338129,-5.525326716
+.\1st_photo\ACA536-with alt error-ph1.csv,lambda-Gem,10.81603325,-6.994637462
+.\1st_photo\ACA536-with alt error-ph1.csv,Theta-Gem,2.172159041,9.179723399
+.\1st_photo\ACA536-with alt error-ph1.csv,Iota-Gem,1.662031134,-0.177272902
+.\1st_photo\ACA536-with alt error-ph1.csv,Mekbuda,10.25631616,-1.807429422
+.\1st_photo\ACA536-with alt error-ph1.csv,Upsilon-Gem,0.627464807,-2.384163602
+.\1st_photo\ACA536-with alt error-ph1.csv,Nu-Gem,16.07124047,4.038054519
+.\1st_photo\ACA536-with alt error-ph1.csv,Rho-Gem,-1.618384265,2.204905943
+.\1st_photo\ACA536-with alt error-ph1.csv,Sigma-Gem,-1.918376966,-2.003349857
+.\1st_photo\ACA536-with alt error-ph1.csv,Tau-Gem,2.21286165,3.803975117
+.\1st_photo\ACA536-with alt error-ph1.csv,Jishui,-5.066945375,2.830686941
+.\1st_photo\ACA536-with alt error-ph1.csv,Chi-Gem,-4.610024896,-5.71021948
+.\1st_photo\ACA536-with alt error-ph1.csv,Phi-Gem,-2.229442292,-5.078687591
+.\1st_photo\ACA536-with alt error-ph1.csv,Pi-Gem,-5.584122582,0.809336424
+.\1st_photo\ACA536-with alt error-ph1.csv,Omega-Gem,7.896963435,0.998907347
+.\1st_photo\ACA536-with alt error-ph1.csv,alpha-Lyn,-22.23527575,-9.242556155
+.\1st_photo\ACA536-with alt error-ph1.csv,Gaia,-23.15159102,-7.116934714
+.\1st_photo\ACA536-with alt error-ph1.csv,HD 77912,-20.30648018,-7.154909806
+.\1st_photo\ACA536-with alt error-ph1.csv,10 Ursae Maj,-22.39064824,-1.064916038
+.\1st_photo\ACA536-with alt error-ph1.csv,Alsciaukat,-17.29447513,3.886115964
+.\1st_photo\ACA536-with alt error-ph1.csv,21 Lyncis,-13.80062725,14.75515238
+.\1st_photo\ACA536-with alt error-ph1.csv,15 Lyncis,-18.16460447,24.05822345
+.\1st_photo\ACA536-with alt error-ph1.csv,2 Lyncis,-15.69608086,28.45244605
+.\1st_photo\ACA536-with alt error-ph1.csv,Capella,2.812631511,31.03099875
+.\1st_photo\ACA536-with alt error-ph1.csv,Menkalinan,-0.353246697,23.99167877
+.\1st_photo\ACA536-with alt error-ph1.csv,Mahasim,6.523048232,19.62097064
+.\1st_photo\ACA536-with alt error-ph1.csv,Hassaleh,17.85361811,28.17506199
+.\1st_photo\ACA536-with alt error-ph1.csv,Almaaz,6.460346153,32.40630754
+.\1st_photo\ACA536-with alt error-ph1.csv,Haedus,8.721898478,30.48760206
+.\1st_photo\ACA536-with alt error-ph1.csv,Saclateni,9.296490774,31.086666
+.\1st_photo\ACA536-with alt error-ph1.csv,Delta Aurigae,-9.305543793,28.78370158
+.\1st_photo\ACA536-with alt error-ph1.csv,Nu Aurigae,5.802170887,22.05175779
+.\1st_photo\ACA536-with alt error-ph1.csv,Pi Aurigae,-1.308979044,24.46518722
+.\1st_photo\ACA536-with alt error-ph1.csv,Kappa Aurigae,10.86983808,12.35887697
+.\1st_photo\ACA536-with alt error-ph1.csv,Tau Aurigae,6.042107495,22.44314684
+.\1st_photo\ACA536-with alt error-ph1.csv,Lambda Aurigae,8.536694051,27.84287794
+.\1st_photo\ACA536-with alt error-ph1.csv,Chi Aurigae,14.29891144,21.31551239
+.\1st_photo\ACA536-with alt error-ph1.csv,Upsilon Aurigae,7.495729221,21.09055546
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 2 Aurigae,-2.719619529,16.72806424
+.\1st_photo\ACA536-with alt error-ph1.csv,Mu Aurigae,10.74424161,27.99586276
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 1 Aurigae,-6.895393763,22.81747898
+.\1st_photo\ACA536-with alt error-ph1.csv,Omega Aurigae,12.90035788,30.13031518
+.\1st_photo\ACA536-with alt error-ph1.csv,Xi Aurigae,-10.38371652,30.04512041
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 7 Aurigae,-3.560787832,14.64508638
+.\1st_photo\ACA536-with alt error-ph1.csv,Sigma Aurigae,10.53266246,25.53227694
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 4 Aurigae,-4.824489792,17.47578979
+.\1st_photo\ACA536-with alt error-ph1.csv,Phi Aurigae,12.87839515,23.46415159
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 6 Aurigae,-8.853585351,19.52757139
+.\1st_photo\ACA536-with alt error-ph1.csv,Rho Aurigae,6.574801752,28.24785159
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 5 Aurigae,-4.492403451,16.36789434
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 3 Aurigae,-0.569471507,15.17095673
+.\1st_photo\ACA536-with alt error-ph1.csv,Omicron Aurigae,-3.70578574,28.47199475
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 9 Aurigae,-7.810011841,16.7731599
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi 8 Aurigae,-1.432719791,12.03411994
+.\1st_photo\ACA536-with alt error-ph1.csv,Alioth,-61.05956186,6.810055331
+.\1st_photo\ACA536-with alt error-ph1.csv,Dubhe,-46.40140198,11.63749096
+.\1st_photo\ACA536-with alt error-ph1.csv,Alkaid,-70.91275689,3.18633118
+.\1st_photo\ACA536-with alt error-ph1.csv,Mizar,-65.44652802,7.051066663
+.\1st_photo\ACA536-with alt error-ph1.csv,Merak,-45.45159587,6.345906971
+.\1st_photo\ACA536-with alt error-ph1.csv,Phecda,-52.78721471,3.338192434
+.\1st_photo\ACA536-with alt error-ph1.csv,Psi-Ursae Maj,-45.27548094,-5.600559945
+.\1st_photo\ACA536-with alt error-ph1.csv,Tania Australis,-36.17029583,-6.943495057
+.\1st_photo\ACA536-with alt error-ph1.csv,Talitha,-25.08653375,4.715796133
+.\1st_photo\ACA536-with alt error-ph1.csv,Theta-Ursae Maj,-31.59173242,5.465240603
+.\1st_photo\ACA536-with alt error-ph1.csv,Megrez,-55.59205207,6.906245812
+.\1st_photo\ACA536-with alt error-ph1.csv,Muscida,-28.5934061,17.6058856
+.\1st_photo\ACA536-with alt error-ph1.csv,Tania Borealis,-35.61535727,-5.319875918
+.\1st_photo\ACA536-with alt error-ph1.csv,Alula Borealis,-45.94291602,-17.11360321
+.\1st_photo\ACA536-with alt error-ph1.csv,Alkaphrah,-25.29491386,3.577732803
+.\1st_photo\ACA536-with alt error-ph1.csv,Taiyangshou,-51.7321391,-2.610525431
+.\1st_photo\ACA536-with alt error-ph1.csv,Upsilon-Ursae Maj,-36.8708038,11.2537739
+.\1st_photo\ACA536-with alt error-ph1.csv,Mizar B,-65.44950407,7.048362192
+.\1st_photo\ACA536-with alt error-ph1.csv,Alula Australis,-45.74497149,-18.66850068
+.\1st_photo\ACA536-with alt error-ph1.csv,Phi-Ursae Maj,-35.20824786,6.555687749
+.\1st_photo\ACA536-with alt error-ph1.csv,Pi-2 Ursae Maj,-31.81940653,19.84403225
+.\1st_photo\ACA536-with alt error-ph1.csv,Omega-Ursae Maj,-42.28286203,-6.52327765
+.\1st_photo\ACA536-with alt error-ph1.csv,Tau-Ursae Maj,-34.35885718,17.34592642
+.\1st_photo\ACA536-with alt error-ph1.csv,Rho-Ursae Maj,-35.79348239,21.32744087
+.\1st_photo\ACA536-with alt error-ph1.csv,Sigma-2 Ursae Maj,-36.21229484,20.51394698
+.\1st_photo\ACA536-with alt error-ph1.csv,Xi-Ursae Maj B,-45.74464194,-18.66865883
+.\1st_photo\ACA536-with alt error-ph1.csv,Sigma-1 Ursae Maj,-35.89165162,20.38771839
+.\1st_photo\ACA536-with alt error-ph1.csv,Pi-1 Ursae Maj,-32.15628128,20.47018125
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Pollux,-2.437936228,-2.898994929
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Castor,-3.301111762,1.523240735
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Alhena,16.80671216,0.007007848
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Castor B,-3.301809046,1.522869123
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Tejat,14.46910343,6.642169406
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Mebsuta,9.32058499,4.744070827
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Propus,15.68358487,8.068171822
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Alzirr,18.19300697,-3.696301158
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Wasat,5.867871642,-3.426068995
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,kappa-Gem,0.120643926,-5.485797849
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,lambda-Gem,10.05913528,-6.951182127
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Theta-Gem,1.408844886,9.219832457
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Iota-Gem,0.902883269,-0.13738966
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Mekbuda,9.497702604,-1.764161779
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Upsilon-Gem,-0.130665063,-2.344749644
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Nu-Gem,15.31096353,4.083064397
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Rho-Gem,-2.3786855,2.243256135
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Sigma-Gem,-2.676622254,-1.965145686
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Tau-Gem,1.451954959,3.84410266
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Jishui,-5.827663634,2.867290256
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Chi-Gem,-5.366268391,-5.673375798
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Phi-Gem,-2.986155765,-5.040636077
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Pi-Gem,-6.343780959,0.845666466
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Omega-Gem,7.137368354,1.041339667
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,alpha-Lyn,-22.98805917,-9.216478114
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Gaia,-23.90582242,-7.09149381
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,HD 77912,-21.06084973,-7.127514214
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,10 Ursae Maj,-23.14913806,-1.038947456
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Alsciaukat,-18.05623066,3.915504863
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,21 Lyncis,-14.56916666,14.78675219
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,15 Lyncis,-18.9406453,24.08703919
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,2 Lyncis,-16.47502541,28.48285597
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Capella,2.038455697,31.07138563
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Menkalinan,-1.124507931,24.03063269
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Mahasim,5.755915509,19.66288193
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Hassaleh,17.08715745,28.22051321
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Almaaz,5.687009837,32.44819334
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Haedus,7.950569712,30.53033254
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Saclateni,8.52512985,31.12960043
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Delta Aurigae,-10.08277755,28.81797233
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Nu Aurigae,5.033747347,22.09338652
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Pi Aurigae,-2.080803168,24.50368465
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Kappa Aurigae,10.10646379,12.40234903
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Tau Aurigae,5.273575005,22.48487024
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Lambda Aurigae,7.766537655,27.88554197
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Chi Aurigae,13.53332569,21.36003876
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Upsilon Aurigae,6.72822501,21.13283708
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 2 Aurigae,-3.487449481,16.76586955
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Mu Aurigae,9.974897045,28.03929222
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 1 Aurigae,-7.667790879,22.85309876
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Omega Aurigae,12.13104162,30.17442988
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Xi Aurigae,-11.16227131,30.07876812
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 7 Aurigae,-4.327639154,14.68246772
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Sigma Aurigae,9.764268548,25.575636
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 4 Aurigae,-5.593160027,17.51251824
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Phi Aurigae,12.11161645,23.50826001
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 6 Aurigae,-9.624339554,19.5621014
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Rho Aurigae,5.803678618,28.28978212
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 5 Aurigae,-5.260377232,16.40479617
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 3 Aurigae,-1.336069526,15.20980946
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Omicron Aurigae,-4.480888919,28.50930005
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 9 Aurigae,-8.578843813,16.80827655
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi 8 Aurigae,-2.197866035,12.07255912
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Alioth,-61.82441499,6.805539964
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Dubhe,-47.17026356,11.64506511
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Alkaid,-71.67451603,3.173806481
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Mizar,-66.21152133,7.042953989
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Merak,-46.21600841,6.354257785
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Phecda,-53.54919634,3.340516391
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Psi-Ursae Maj,-46.03012835,-5.592061727
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Tania Australis,-36.92407473,-6.927721605
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Talitha,-25.84913057,4.739868518
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Theta-Ursae Maj,-32.35510233,5.484529559
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Megrez,-56.35701358,6.906248277
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Muscida,-29.36604003,17.62741042
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Tania Borealis,-36.37043252,-5.303670624
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Alula Borealis,-46.68774554,-17.10564495
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Alkaphrah,-26.05670036,3.601656747
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Taiyangshou,-52.48920174,-2.60732779
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Upsilon-Ursae Maj,-37.63896392,11.26899385
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Mizar B,-66.21449508,7.040247093
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Alula Australis,-46.48840973,-18.66038042
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Phi-Ursae Maj,-35.97258037,6.572205664
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Pi-2 Ursae Maj,-32.59429333,19.86314457
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Omega-Ursae Maj,-43.03680868,-6.512355355
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Tau-Ursae Maj,-35.1318876,17.36309804
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Rho-Ursae Maj,-36.5701268,21.34349915
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Sigma-2 Ursae Maj,-36.98825646,20.52967899
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Xi-Ursae Maj B,-46.48808004,-18.6605383
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Sigma-1 Ursae Maj,-36.6674681,20.40370053
+.\2nd_photo\ACA536-notsmoothed-ph2.csv,Pi-1 Ursae Maj,-32.93174789,20.48903789
+.\2nd_photo\ACA536-ph2.csv,Pollux,-1.594970401,-2.867026868
+.\2nd_photo\ACA536-ph2.csv,Castor,-2.458662405,1.555106914
+.\2nd_photo\ACA536-ph2.csv,Alhena,17.64935141,0.039338558
+.\2nd_photo\ACA536-ph2.csv,Castor B,-2.459359654,1.554735217
+.\2nd_photo\ACA536-ph2.csv,Tejat,15.31209798,6.674651891
+.\2nd_photo\ACA536-ph2.csv,Mebsuta,10.16323341,4.776696743
+.\2nd_photo\ACA536-ph2.csv,Propus,16.52675452,8.100582174
+.\2nd_photo\ACA536-ph2.csv,Alzirr,19.03531244,-3.664085886
+.\2nd_photo\ACA536-ph2.csv,Wasat,6.710618374,-3.393494386
+.\2nd_photo\ACA536-ph2.csv,kappa-Gem,0.96376845,-5.45357059
+.\2nd_photo\ACA536-ph2.csv,lambda-Gem,10.90170562,-6.918560614
+.\2nd_photo\ACA536-ph2.csv,Theta-Gem,2.250773231,9.252165874
+.\2nd_photo\ACA536-ph2.csv,Iota-Gem,1.745530576,-0.105095984
+.\2nd_photo\ACA536-ph2.csv,Mekbuda,10.34033299,-1.731536425
+.\2nd_photo\ACA536-ph2.csv,Upsilon-Gem,0.712184999,-2.312545018
+.\2nd_photo\ACA536-ph2.csv,Nu-Gem,16.1538544,4.115498438
+.\2nd_photo\ACA536-ph2.csv,Rho-Gem,-1.536303953,2.275230888
+.\2nd_photo\ACA536-ph2.csv,Sigma-Gem,-1.833758354,-1.93320507
+.\2nd_photo\ACA536-ph2.csv,Tau-Gem,2.294299822,3.876439365
+.\2nd_photo\ACA536-ph2.csv,Jishui,-4.985449144,2.898816819
+.\2nd_photo\ACA536-ph2.csv,Chi-Gem,-4.522824074,-5.641782534
+.\2nd_photo\ACA536-ph2.csv,Phi-Gem,-2.142918171,-5.008731847
+.\2nd_photo\ACA536-ph2.csv,Pi-Gem,-5.501274029,0.877116116
+.\2nd_photo\ACA536-ph2.csv,Omega-Gem,7.979985308,1.073946906
+.\2nd_photo\ACA536-ph2.csv,alpha-Lyn,-22.14261464,-9.188832655
+.\2nd_photo\ACA536-ph2.csv,Gaia,-23.06097895,-7.064129509
+.\2nd_photo\ACA536-ph2.csv,HD 77912,-20.21616727,-7.099301825
+.\2nd_photo\ACA536-ph2.csv,10 Ursae Maj,-22.30618915,-1.011351195
+.\2nd_photo\ACA536-ph2.csv,Alsciaukat,-17.21461587,3.944537011
+.\2nd_photo\ACA536-ph2.csv,21 Lyncis,-13.72998907,14.81663574
+.\2nd_photo\ACA536-ph2.csv,15 Lyncis,-18.10486757,24.11583733
+.\2nd_photo\ACA536-ph2.csv,2 Lyncis,-15.64003265,28.51228702
+.\2nd_photo\ACA536-ph2.csv,Capella,2.878677867,31.10376496
+.\2nd_photo\ACA536-ph2.csv,Menkalinan,-0.284452365,24.06274165
+.\2nd_photo\ACA536-ph2.csv,Mahasim,6.59787433,19.69545288
+.\2nd_photo\ACA536-ph2.csv,Hassaleh,17.93223291,28.25282199
+.\2nd_photo\ACA536-ph2.csv,Almaaz,6.528415054,32.48076197
+.\2nd_photo\ACA536-ph2.csv,Haedus,8.792824295,30.56295227
+.\2nd_photo\ACA536-ph2.csv,Saclateni,9.367572958,31.16222503
+.\2nd_photo\ACA536-ph2.csv,Delta Aurigae,-9.246039675,28.84878829
+.\2nd_photo\ACA536-ph2.csv,Nu Aurigae,5.875447178,22.12593096
+.\2nd_photo\ACA536-ph2.csv,Pi Aurigae,-1.241049208,24.53569255
+.\2nd_photo\ACA536-ph2.csv,Kappa Aurigae,10.94922874,12.43497007
+.\2nd_photo\ACA536-ph2.csv,Tau Aurigae,6.115312854,22.51742406
+.\2nd_photo\ACA536-ph2.csv,Lambda Aurigae,8.608776095,27.91815945
+.\2nd_photo\ACA536-ph2.csv,Chi Aurigae,14.37695268,21.39256685
+.\2nd_photo\ACA536-ph2.csv,Upsilon Aurigae,7.570342338,21.16543554
+.\2nd_photo\ACA536-ph2.csv,Psi 2 Aurigae,-2.646954717,16.79771267
+.\2nd_photo\ACA536-ph2.csv,Mu Aurigae,10.81780315,28.07191451
+.\2nd_photo\ACA536-ph2.csv,Psi 1 Aurigae,-6.829121444,22.88433908
+.\2nd_photo\ACA536-ph2.csv,Omega Aurigae,12.97468632,30.2070101
+.\2nd_photo\ACA536-ph2.csv,Xi Aurigae,-10.32617997,30.10937665
+.\2nd_photo\ACA536-ph2.csv,Psi 7 Aurigae,-3.486987734,14.71420324
+.\2nd_photo\ACA536-ph2.csv,Sigma Aurigae,10.60708998,25.60825992
+.\2nd_photo\ACA536-ph2.csv,Psi 4 Aurigae,-4.753134727,17.54407876
+.\2nd_photo\ACA536-ph2.csv,Phi Aurigae,12.95500273,23.54084082
+.\2nd_photo\ACA536-ph2.csv,Psi 6 Aurigae,-8.785425314,19.59300232
+.\2nd_photo\ACA536-ph2.csv,Rho Aurigae,6.645308666,28.32235464
+.\2nd_photo\ACA536-ph2.csv,Psi 5 Aurigae,-4.420123052,16.4364042
+.\2nd_photo\ACA536-ph2.csv,Psi 3 Aurigae,-0.495039161,15.24189689
+.\2nd_photo\ACA536-ph2.csv,Omicron Aurigae,-3.642413072,28.54101506
+.\2nd_photo\ACA536-ph2.csv,Psi 9 Aurigae,-7.739200804,16.83936341
+.\2nd_photo\ACA536-ph2.csv,Psi 8 Aurigae,-1.356596372,12.10455412
+.\2nd_photo\ACA536-ph2.csv,Alioth,-60.98546007,6.816207166
+.\2nd_photo\ACA536-ph2.csv,Dubhe,-46.33322215,11.66318513
+.\2nd_photo\ACA536-ph2.csv,Alkaid,-70.83366571,3.179042319
+.\2nd_photo\ACA536-ph2.csv,Mizar,-65.37278511,7.051231311
+.\2nd_photo\ACA536-ph2.csv,Merak,-45.37636265,6.372827758
+.\2nd_photo\ACA536-ph2.csv,Phecda,-52.708254,3.35551078
+.\2nd_photo\ACA536-ph2.csv,Psi-Ursae Maj,-45.18487473,-5.573403513
+.\2nd_photo\ACA536-ph2.csv,Tania Australis,-36.07858975,-6.905062677
+.\2nd_photo\ACA536-ph2.csv,Talitha,-25.00804681,4.766613982
+.\2nd_photo\ACA536-ph2.csv,Theta-Ursae Maj,-31.51454305,5.508985491
+.\2nd_photo\ACA536-ph2.csv,Megrez,-55.51797419,6.919804729
+.\2nd_photo\ACA536-ph2.csv,Muscida,-28.52985524,17.65295842
+.\2nd_photo\ACA536-ph2.csv,Tania Borealis,-35.52564099,-5.280786069
+.\2nd_photo\ACA536-ph2.csv,Alula Borealis,-45.83681099,-17.08729382
+.\2nd_photo\ACA536-ph2.csv,Alkaphrah,-25.21524949,3.628334402
+.\2nd_photo\ACA536-ph2.csv,Taiyangshou,-51.64526151,-2.591799171
+.\2nd_photo\ACA536-ph2.csv,Upsilon-Ursae Maj,-36.80106494,11.29135655
+.\2nd_photo\ACA536-ph2.csv,Mizar B,-65.3757574,7.048522777
+.\2nd_photo\ACA536-ph2.csv,Alula Australis,-45.63668866,-18.64193536
+.\2nd_photo\ACA536-ph2.csv,Phi-Ursae Maj,-35.13260853,6.595250168
+.\2nd_photo\ACA536-ph2.csv,Pi-2 Ursae Maj,-31.75950016,19.88750904
+.\2nd_photo\ACA536-ph2.csv,Omega-Ursae Maj,-42.19123589,-6.492324897
+.\2nd_photo\ACA536-ph2.csv,Tau-Ursae Maj,-34.29637047,17.38647805
+.\2nd_photo\ACA536-ph2.csv,Rho-Ursae Maj,-35.73661351,21.36630023
+.\2nd_photo\ACA536-ph2.csv,Sigma-2 Ursae Maj,-36.15442517,20.55230922
+.\2nd_photo\ACA536-ph2.csv,Xi-Ursae Maj B,-45.63635892,-18.64209308
+.\2nd_photo\ACA536-ph2.csv,Sigma-1 Ursae Maj,-35.83353065,20.42646201
+.\2nd_photo\ACA536-ph2.csv,Pi-1 Ursae Maj,-32.09727732,20.51327408
+.\2nd_photo\ACA536-with alt error-ph2.csv,Pollux,-1.594957032,-2.867026868
+.\2nd_photo\ACA536-with alt error-ph2.csv,Castor,-2.458649036,1.555106914
+.\2nd_photo\ACA536-with alt error-ph2.csv,Alhena,17.64936478,0.039338558
+.\2nd_photo\ACA536-with alt error-ph2.csv,Castor B,-2.459346285,1.554735217
+.\2nd_photo\ACA536-with alt error-ph2.csv,Tejat,15.31211135,6.674651891
+.\2nd_photo\ACA536-with alt error-ph2.csv,Mebsuta,10.16324678,4.776696743
+.\2nd_photo\ACA536-with alt error-ph2.csv,Propus,16.52676789,8.100582174
+.\2nd_photo\ACA536-with alt error-ph2.csv,Alzirr,19.03532581,-3.664085886
+.\2nd_photo\ACA536-with alt error-ph2.csv,Wasat,6.710631743,-3.393494386
+.\2nd_photo\ACA536-with alt error-ph2.csv,kappa-Gem,0.963781818,-5.45357059
+.\2nd_photo\ACA536-with alt error-ph2.csv,lambda-Gem,10.90171899,-6.918560614
+.\2nd_photo\ACA536-with alt error-ph2.csv,Theta-Gem,2.2507866,9.252165874
+.\2nd_photo\ACA536-with alt error-ph2.csv,Iota-Gem,1.745543945,-0.105095984
+.\2nd_photo\ACA536-with alt error-ph2.csv,Mekbuda,10.34034636,-1.731536425
+.\2nd_photo\ACA536-with alt error-ph2.csv,Upsilon-Gem,0.712198368,-2.312545018
+.\2nd_photo\ACA536-with alt error-ph2.csv,Nu-Gem,16.15386777,4.115498438
+.\2nd_photo\ACA536-with alt error-ph2.csv,Rho-Gem,-1.536290584,2.275230888
+.\2nd_photo\ACA536-with alt error-ph2.csv,Sigma-Gem,-1.833744985,-1.93320507
+.\2nd_photo\ACA536-with alt error-ph2.csv,Tau-Gem,2.294313191,3.876439365
+.\2nd_photo\ACA536-with alt error-ph2.csv,Jishui,-4.985435775,2.898816819
+.\2nd_photo\ACA536-with alt error-ph2.csv,Chi-Gem,-4.522810705,-5.641782534
+.\2nd_photo\ACA536-with alt error-ph2.csv,Phi-Gem,-2.142904802,-5.008731847
+.\2nd_photo\ACA536-with alt error-ph2.csv,Pi-Gem,-5.50126066,0.877116116
+.\2nd_photo\ACA536-with alt error-ph2.csv,Omega-Gem,7.979998677,1.073946906
+.\2nd_photo\ACA536-with alt error-ph2.csv,alpha-Lyn,-22.14260127,-9.188832655
+.\2nd_photo\ACA536-with alt error-ph2.csv,Gaia,-23.06096558,-7.064129509
+.\2nd_photo\ACA536-with alt error-ph2.csv,HD 77912,-20.2161539,-7.099301825
+.\2nd_photo\ACA536-with alt error-ph2.csv,10 Ursae Maj,-22.30617578,-1.011351195
+.\2nd_photo\ACA536-with alt error-ph2.csv,Alsciaukat,-17.2146025,3.944537011
+.\2nd_photo\ACA536-with alt error-ph2.csv,21 Lyncis,-13.7299757,14.81663574
+.\2nd_photo\ACA536-with alt error-ph2.csv,15 Lyncis,-18.1048542,24.11583733
+.\2nd_photo\ACA536-with alt error-ph2.csv,2 Lyncis,-15.64001928,28.51228702
+.\2nd_photo\ACA536-with alt error-ph2.csv,Capella,2.878691236,31.10376496
+.\2nd_photo\ACA536-with alt error-ph2.csv,Menkalinan,-0.284438996,24.06274165
+.\2nd_photo\ACA536-with alt error-ph2.csv,Mahasim,6.597887699,19.69545288
+.\2nd_photo\ACA536-with alt error-ph2.csv,Hassaleh,17.93224628,28.25282199
+.\2nd_photo\ACA536-with alt error-ph2.csv,Almaaz,6.528428423,32.48076197
+.\2nd_photo\ACA536-with alt error-ph2.csv,Haedus,8.792837664,30.56295227
+.\2nd_photo\ACA536-with alt error-ph2.csv,Saclateni,9.367586327,31.16222503
+.\2nd_photo\ACA536-with alt error-ph2.csv,Delta Aurigae,-9.246026306,28.84878829
+.\2nd_photo\ACA536-with alt error-ph2.csv,Nu Aurigae,5.875460547,22.12593096
+.\2nd_photo\ACA536-with alt error-ph2.csv,Pi Aurigae,-1.241035839,24.53569255
+.\2nd_photo\ACA536-with alt error-ph2.csv,Kappa Aurigae,10.94924211,12.43497007
+.\2nd_photo\ACA536-with alt error-ph2.csv,Tau Aurigae,6.115326223,22.51742406
+.\2nd_photo\ACA536-with alt error-ph2.csv,Lambda Aurigae,8.608789463,27.91815945
+.\2nd_photo\ACA536-with alt error-ph2.csv,Chi Aurigae,14.37696605,21.39256685
+.\2nd_photo\ACA536-with alt error-ph2.csv,Upsilon Aurigae,7.570355707,21.16543554
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 2 Aurigae,-2.646941348,16.79771267
+.\2nd_photo\ACA536-with alt error-ph2.csv,Mu Aurigae,10.81781651,28.07191451
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 1 Aurigae,-6.829108075,22.88433908
+.\2nd_photo\ACA536-with alt error-ph2.csv,Omega Aurigae,12.97469969,30.2070101
+.\2nd_photo\ACA536-with alt error-ph2.csv,Xi Aurigae,-10.3261666,30.10937665
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 7 Aurigae,-3.486974365,14.71420324
+.\2nd_photo\ACA536-with alt error-ph2.csv,Sigma Aurigae,10.60710335,25.60825992
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 4 Aurigae,-4.753121358,17.54407876
+.\2nd_photo\ACA536-with alt error-ph2.csv,Phi Aurigae,12.9550161,23.54084082
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 6 Aurigae,-8.785411945,19.59300232
+.\2nd_photo\ACA536-with alt error-ph2.csv,Rho Aurigae,6.645322035,28.32235464
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 5 Aurigae,-4.420109683,16.4364042
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 3 Aurigae,-0.495025792,15.24189689
+.\2nd_photo\ACA536-with alt error-ph2.csv,Omicron Aurigae,-3.642399703,28.54101506
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 9 Aurigae,-7.739187435,16.83936341
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi 8 Aurigae,-1.356583003,12.10455412
+.\2nd_photo\ACA536-with alt error-ph2.csv,Alioth,-60.9854467,6.816207166
+.\2nd_photo\ACA536-with alt error-ph2.csv,Dubhe,-46.33320878,11.66318513
+.\2nd_photo\ACA536-with alt error-ph2.csv,Alkaid,-70.83365234,3.179042319
+.\2nd_photo\ACA536-with alt error-ph2.csv,Mizar,-65.37277174,7.051231311
+.\2nd_photo\ACA536-with alt error-ph2.csv,Merak,-45.37634928,6.372827758
+.\2nd_photo\ACA536-with alt error-ph2.csv,Phecda,-52.70824063,3.35551078
+.\2nd_photo\ACA536-with alt error-ph2.csv,Psi-Ursae Maj,-45.18486136,-5.573403513
+.\2nd_photo\ACA536-with alt error-ph2.csv,Tania Australis,-36.07857638,-6.905062677
+.\2nd_photo\ACA536-with alt error-ph2.csv,Talitha,-25.00803344,4.766613982
+.\2nd_photo\ACA536-with alt error-ph2.csv,Theta-Ursae Maj,-31.51452969,5.508985491
+.\2nd_photo\ACA536-with alt error-ph2.csv,Megrez,-55.51796082,6.919804729
+.\2nd_photo\ACA536-with alt error-ph2.csv,Muscida,-28.52984187,17.65295842
+.\2nd_photo\ACA536-with alt error-ph2.csv,Tania Borealis,-35.52562762,-5.280786069
+.\2nd_photo\ACA536-with alt error-ph2.csv,Alula Borealis,-45.83679762,-17.08729382
+.\2nd_photo\ACA536-with alt error-ph2.csv,Alkaphrah,-25.21523612,3.628334402
+.\2nd_photo\ACA536-with alt error-ph2.csv,Taiyangshou,-51.64524814,-2.591799171
+.\2nd_photo\ACA536-with alt error-ph2.csv,Upsilon-Ursae Maj,-36.80105157,11.29135655
+.\2nd_photo\ACA536-with alt error-ph2.csv,Mizar B,-65.37574404,7.048522777
+.\2nd_photo\ACA536-with alt error-ph2.csv,Alula Australis,-45.63667529,-18.64193536
+.\2nd_photo\ACA536-with alt error-ph2.csv,Phi-Ursae Maj,-35.13259516,6.595250168
+.\2nd_photo\ACA536-with alt error-ph2.csv,Pi-2 Ursae Maj,-31.75948679,19.88750904
+.\2nd_photo\ACA536-with alt error-ph2.csv,Omega-Ursae Maj,-42.19122252,-6.492324897
+.\2nd_photo\ACA536-with alt error-ph2.csv,Tau-Ursae Maj,-34.29635711,17.38647805
+.\2nd_photo\ACA536-with alt error-ph2.csv,Rho-Ursae Maj,-35.73660014,21.36630023
+.\2nd_photo\ACA536-with alt error-ph2.csv,Sigma-2 Ursae Maj,-36.1544118,20.55230922
+.\2nd_photo\ACA536-with alt error-ph2.csv,Xi-Ursae Maj B,-45.63634555,-18.64209308
+.\2nd_photo\ACA536-with alt error-ph2.csv,Sigma-1 Ursae Maj,-35.83351728,20.42646201
+.\2nd_photo\ACA536-with alt error-ph2.csv,Pi-1 Ursae Maj,-32.09726395,20.51327408
