@@ -28,7 +28,8 @@
 #
 # Uses code adopted from Michael Hirsch, Ph.D. (pymap3d): https://pypi.org/project/pymap3d/
 #
-# Change History: Version 1.0 clean code.
+# Change History: Version 1.1:
+#                 DJB (3/23/24) Added the calculation of the angle between the AC and Satellite's velocity vectors.
 #
 
 import numpy as np
@@ -472,7 +473,11 @@ def main():
                 r_sat_ecef = [data_satellite["X"],  data_satellite["Y"],  data_satellite["Z"]]
                 v_sat_ecef = [data_satellite["VX"], data_satellite["VY"], data_satellite["VZ"]]
 
+                # Calculate the grazing angle for this satellite
                 graze_angle_NTW = calculate_sun_grazing_angle(r_ac_ecef, v_ac_ecef, r_sun_ecef, v_sun_ecef, r_sat_ecef, v_sat_ecef)
+
+                # Calculate the angle between the aircraft and this satellite's ECEF velocity vectors
+                ac_sat_relative_angle = angle_between_vectors(v_ac_ecef, v_sat_ecef)
 
                 # Call the cockpitview function (r1ecef, v1ecef, r2ecef, lat, lon)
                 result_cockpitview = cockpitview(r_ac_ecef, v_ac_ecef, r_sat_ecef, lat_rad, lon_rad)
@@ -488,7 +493,7 @@ def main():
 
                 # Append new data to output_data
                 output_data.append([
-                    aircraft, satellite, graze_angle_NTW, heading, 
+                    aircraft, satellite, graze_angle_NTW, heading, ac_sat_relative_angle,
                     *r_sat_enu, range_mag_enu,  
                     *v_sat_enu, vel_mag_enu,  
                     *result_cockpitview
@@ -566,7 +571,7 @@ def main():
                     ])
 
                 writer.writerow([
-                    "Aircraft", "Satellite", "Solar grazing angle (deg)", "AC heading (deg)", 
+                    "Aircraft", "Satellite", "Solar grazing angle (deg)", "AC heading (deg)", "Angle from AC 2 Sat Velocities(deg)",
                     "Rel. Pos. X_ENU (km)", "Rel. Pos. Y_ENU (km)", "Rel. Pos. Z_ENU (km)", "Range ENU (km)", 
                     "Rel. Vel. X_ENU (km/s)", "Rel. Vel. Y_ENU (km/s)", "Rel. Vel. Z_ENU (km/s)", "Rel. Vel. ENU (km/s)", 
                     "Cockpit: range (km)", "Cockpit: look angle (deg)", "Cockpit: elevation angle (deg)"
