@@ -1,3 +1,4 @@
+# -----------------------------------------------------------------------------------------------------------------
 """
 converts right ascension, declination to azimuth, elevation and vice versa.
 Normally do this via AstroPy.
@@ -5,6 +6,7 @@ These functions are fallbacks for those wihtout AstroPy.
 
 Michael Hirsch implementation of algorithms from D. Vallado
 """
+# -----------------------------------------------------------------------------------------------------------------
 
 from __future__ import annotations
 

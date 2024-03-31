@@ -1,3 +1,8 @@
+#---------------------------------------------------------------------------------------------------------------------
+# Copyright (c) 2023/2024: Douglas J. Buettner, PhD. GPL-3.0 license
+# specific terms of this GPL-3.0 license can be found here:
+# https://github.com/DrDougB/Starlink_G4-26/blob/main/LICENSE 
+#
 # Python code to process comma delimited files output from csvout.py
 # This file contains functions to transform Earth-Centered Earth-Fixed (ECEF) into Earth-North-Up (ENU)
 # coordinates of aircraft relative views of satellites, launch debris and the sun at specific UTC 
@@ -26,26 +31,45 @@
 #   enforce our policies. You are responsible for Content, including for ensuring that it 
 #   does not violate any applicable law or these Terms.
 #
-# Uses code adopted from Michael Hirsch, Ph.D. (pymap3d): https://pypi.org/project/pymap3d/
+# Uses code adapted from Michael Hirsch, Ph.D. (pymap3d): https://pypi.org/project/pymap3d/
 #
-# Change History: Version 1.1:
-#                 DJB (3/23/24) Added the calculation of the angle between the AC and Satellite's velocity vectors.
+# Change History: Version 1.2, DJB (3/30/24):
+#                 1. Added code to also extract each satellite's altitude above the spherical & ellipsoidal earth 
+#                    models (Geocentric & Geodetic altitudes). AC Altitudes were already extracted from SOAP's
+#                    ac csv files. Then made sure the sat. altitude values were included in the exported output 
+#                    data csv file.
+#                 2. Fixed some incorrect function explanations, other minor cleanup and reformatted this change 
+#                    history.
+#                 3. Moved angle between the AC and Satellite's velocity vectors to allow simple update of master
+#                    excel analysis spreadsheet.
+#                 4. Added explicit copyright statements in this revision. Users should consider this 
+#                    retroactive to the first version, prior version only had copyright applied at the GitHub
+#                    level. This change brings that copyright notice into this code.
 #
+#                 Version 1.1, DJB (3/23/24):
+#                 Added the calculation of the angle between the AC and Satellite's velocity vectors.
+#                 
+#                 Version 1.0: Initial version
+#---------------------------------------------------------------------------------------------------------------------
 
 import numpy as np
 import csv
 import os
 import math
 
+#
 # Add imports from the cockpitview functions here
+#
 from cockpitview import cockpitview, twoecef2enu, calculate_heading_from_velocity, ecef2enu
 
 # Change to True if you want to turn on print statements
 verbose = False
 
+#
 # Function to extract a value from a given line of the CSV
 # Input: line (string)
 # Output: float value or None
+#
 def extract_value_from_line(line):
     if verbose:
         print(f"extract_value_from_line...")
@@ -55,14 +79,16 @@ def extract_value_from_line(line):
         return None
 
 
+#
 # Function to extract data from a given CSV file
 # Apply the log_variables decorator to this function
+#
 def extract_data_from_file(file_path):
     if verbose:
         print(f"extract_data_from_file...")
     data = {"X":    None, "Y":    None, "Z":    None, "VX":    None, "VY":    None, "VZ":    None,
             "Xeci": None, "Yeci": None, "Zeci": None, "VXeci": None, "VYeci": None, "VZeci": None,
-            "LAT": None, "LON": None, "ALT": None}
+            "LAT": None, "LON": None, "ALT": None, "ALT_GC": None, "ALT_GD": None}
     with open(file_path, 'r') as f:
         for line in f:
             if "BCR_POSITION_X" in line:
@@ -95,22 +121,32 @@ def extract_data_from_file(file_path):
                 data["LON"] = extract_value_from_line(line)
             elif "EARTH_ALT_GEODETIC" in line:
                 data["ALT"] = extract_value_from_line(line)
+            elif "ALT_GEOCENTRIC" in line:
+                data["ALT_GC"] = extract_value_from_line(line)
+            elif "ALT_GEODETIC" in line:
+                data["ALT_GD"] = extract_value_from_line(line)
     return data
 
+#
 # Function to convert degrees to radians
+#
 def deg_to_rad(degrees):
     if verbose:
         print(f"deg_to_rad...")
     return degrees * math.pi / 180.0
 
+#
 # Vector dot product - used to calculate the sun grazing angle
+#
 def dot_product(a, b):
     if verbose:
         print(f"dot_product...")
     # Compute dot product of two vectors.
     return a[0]*b[0] + a[1]*b[1] + a[2]*b[2]
 
+#
 # Vector cross product - used to calculate the sun grazing angle
+#
 def cross_product(a, b):
     if verbose:
         print(f"cross_product...")
@@ -121,14 +157,18 @@ def cross_product(a, b):
         a[0] * b[1] - a[1] * b[0]
     ]
 
+#
 # Vector magnitude - used to calculate the sun grazing angle
+#
 def magnitude(v):
     if verbose:
         print(f"magnitude...")
     # Compute magnitude (or norm) of a vector.
     return (v[0]**2 + v[1]**2 + v[2]**2)**0.5
 
+#
 # Vector normalization - used to calculate the sun grazing angle
+#
 def normalize(v):
     if verbose:
         print(f"normalize...")
@@ -136,7 +176,9 @@ def normalize(v):
     mag = magnitude(v)
     return [v[0] / mag, v[1] / mag, v[2] / mag]
 
+#
 # Vector transform - used to calculate the sun grazing angle
+#
 def transform_vector(matrix, vector):
     if verbose:
         print(f"transform_vector...")
@@ -155,6 +197,7 @@ def transform_vector(matrix, vector):
 # Returns:
 # tuple: A tuple representing the spherical coordinates (rho, theta, phi).
 #        (distance in "km", azimuth-"yaw" in degrees, elevation-"pitch" in degrees)
+#
 def cartesian_to_spherical(cartesian):
     if verbose:
         print(f"cartesian_to_spherical...")
@@ -182,20 +225,23 @@ def cartesian_to_spherical(cartesian):
 
     return rho, theta, phi
 
+#
 # Helper function to compute the distance between two 3D points  
 # - used to calculate the sun grazing angle
+#
 def distance(point1, point2):
     if verbose:
         print(f"distance...")
     return math.sqrt(sum([(point2[i] - point1[i])**2 for i in range(3)]))
 
-# Transforms Earth Centered Inertial coordinates (at a specific time) 
+#
+# Transforms Earth Centered Earth Fixed (ECEF) coordinates for the specific time of each photo
 # into the Satellite's NTW (Nadir-Track-Wing) coordinate system where N-axis lies 
 # in the orbital plane, T is tangential to the orbit, and W is normal to the
 # orbital plane  
 # Used to calculate the sun grazing angle in the NTW basis as well as for
 # aircraft relative calculations - see below for this basis comparison
-
+#
 def ecef_to_ntw_matrix(r, v):
     if verbose:
         print(f"ecef_to_ntw_matrix...")
@@ -205,8 +251,9 @@ def ecef_to_ntw_matrix(r, v):
     w_hat = cross_product(t_hat, n_hat)
     return [n_hat, t_hat, w_hat]
 
+#
 # Calculate the angle between two vectors in degrees
-
+#
 def angle_between_vectors(A, B):
     if verbose:
         print(f"angle_between_vectors...")
@@ -218,8 +265,9 @@ def angle_between_vectors(A, B):
     theta = 180.0 * math.acos(cos_theta)/math.pi
     return theta
 
+#
 # Calculate projection of the satellite vector A in the direction of the plane's velocity B
-
+#
 def parallel_component(A, B):
     if verbose:
         print(f"parallel_component...")
@@ -228,13 +276,17 @@ def parallel_component(A, B):
     C = [scalar * B[0],scalar * B[1],scalar * B[2]]
     return C
 
+#
 # Helper routine to transform a vector into a different different basis, e.g. ECEF into RSW or NTW
+#
 def transform_to_basis(vector, basis_matrix):
     if verbose:
         print(f"transform_to_basis...")
     return [sum(vector[i] * basis_matrix[j][i] for i in range(3)) for j in range(3)]
 
+#
 # Function to calculate relative values between the aircraft, and the satellite
+#
 def calculate_relative_values(aircraft_data, satellite_data, lat, lon):
     if verbose:
         print(f"calculate_relative_values...")
@@ -265,6 +317,7 @@ def calculate_relative_values(aircraft_data, satellite_data, lat, lon):
             v_satellite_relative, velocity_magnitude, v_satellite_enu, velocity_mag_enu, 
             sat_enu_rho, sat_enu_theta, sat_enu_phi)
 
+#
 # Function to parse through a list of satellites with ECEF values to find the apparent 
 # length from the viewpoint of an aircraft observer with ECEF coordinates from the same time
 #
@@ -360,6 +413,7 @@ def calculate_apparent_length(satellite_positions, r_ac_ecef, lat, lon):
     else:
         return None, None, None, None, None, None
 
+#
 # Function to calculate the sun's grazing angle with respect to the aircraft observer
 #
 #         +J            (sat) is the location of the satellite (coordinate origin)
@@ -374,7 +428,7 @@ def calculate_apparent_length(satellite_positions, r_ac_ecef, lat, lon):
 # <--------+-------->+I  NOTE: Geometry here assumes I and J DO NOT necessarily exactly aligns  
 #        (sat)                 with the NTW axis, hence the computation for the grazing angle
 #                              uses a=(180-Q)/2.
-
+#
 def calculate_sun_grazing_angle(r_ac_ecef, v_ac_ecef, r_sun_ecef, v_sun_ecef, r_satellite, v_satellite):
     if verbose:
         print(f"calculate_sun_grazing_angle...")
@@ -395,7 +449,9 @@ def calculate_sun_grazing_angle(r_ac_ecef, v_ac_ecef, r_sun_ecef, v_sun_ecef, r_
     return graze_angle_NTW 
 
 
-# Main function to execute the process
+#
+# Main function which executes the process of the csv files
+#
 def main():
 
     print(f"Beginning processing csv files...")
@@ -472,6 +528,8 @@ def main():
                 # Extract out the ECEF coordinates for this satellite
                 r_sat_ecef = [data_satellite["X"],  data_satellite["Y"],  data_satellite["Z"]]
                 v_sat_ecef = [data_satellite["VX"], data_satellite["VY"], data_satellite["VZ"]]
+                sat_alt_gc = data_satellite["ALT_GC"]
+                sat_alt_gd = data_satellite["ALT_GD"]
 
                 # Calculate the grazing angle for this satellite
                 graze_angle_NTW = calculate_sun_grazing_angle(r_ac_ecef, v_ac_ecef, r_sun_ecef, v_sun_ecef, r_sat_ecef, v_sat_ecef)
@@ -493,10 +551,10 @@ def main():
 
                 # Append new data to output_data
                 output_data.append([
-                    aircraft, satellite, graze_angle_NTW, heading, ac_sat_relative_angle,
+                    aircraft, satellite, graze_angle_NTW, heading, 
                     *r_sat_enu, range_mag_enu,  
                     *v_sat_enu, vel_mag_enu,  
-                    *result_cockpitview
+                    *result_cockpitview, ac_sat_relative_angle, sat_alt_gc, sat_alt_gd
                 ])
 
             # Now for this aircraft, calculate the apparent size and identify the satellites
@@ -571,10 +629,11 @@ def main():
                     ])
 
                 writer.writerow([
-                    "Aircraft", "Satellite", "Solar grazing angle (deg)", "AC heading (deg)", "Angle from AC 2 Sat Velocities(deg)",
+                    "Aircraft", "Satellite", "Solar grazing angle (deg)", "AC heading (deg)", 
                     "Rel. Pos. X_ENU (km)", "Rel. Pos. Y_ENU (km)", "Rel. Pos. Z_ENU (km)", "Range ENU (km)", 
                     "Rel. Vel. X_ENU (km/s)", "Rel. Vel. Y_ENU (km/s)", "Rel. Vel. Z_ENU (km/s)", "Rel. Vel. ENU (km/s)", 
-                    "Cockpit: range (km)", "Cockpit: look angle (deg)", "Cockpit: elevation angle (deg)"
+                    "Cockpit: range (km)", "Cockpit: look angle (deg)", "Cockpit: elevation angle (deg)", 
+                    "Angle from AC 2 Sat Velocities(deg)", "Sat Geocentric Altitude (km)", "Sat Geodetic Altitude (km)"
                 ])
 
                 # Write the data rows for satellite and sun data

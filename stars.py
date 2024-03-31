@@ -1,3 +1,8 @@
+# -----------------------------------------------------------------------------------------------------------------
+# Copyright (c) 2023/2024: Douglas J. Buettner, PhD. GPL-3.0 license
+# specific terms of this GPL-3.0 license can be found here:
+# https://github.com/DrDougB/Starlink_G4-26/blob/main/LICENSE 
+#
 # Python code to process comma delimited aircraft files output from csvout.py
 # This file contains functions to transform Earth-Centered Earth-Fixed (ECEF) into Earth-North-Up (ENU)
 # coordinates for aircraft relative views of stars at specific UTC times photographs were taken of
@@ -24,8 +29,13 @@
 #   enforce our policies. You are responsible for Content, including for ensuring that it 
 #   does not violate any applicable law or these Terms.
 #
-# Change History: Version 1.0 clean code.
+# Change History: Version 1.1, DJB (3/30/24):
+#                 Added explicit copyright statements in this revision. Users should consider this 
+#                 retroactive to the first version, prior version only had copyright applied at the GitHub
+#                 level. This change brings that copyright notice into this code.
 #
+#                 Version 1.0: Initial version
+# -----------------------------------------------------------------------------------------------------------------
 
 import csv
 import os

@@ -1,4 +1,8 @@
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------
+# Copyright (c) 2023/2024: Douglas J. Buettner, PhD. GPL-3.0 license
+# specific terms of this GPL-3.0 license can be found here:
+# https://github.com/DrDougB/Starlink_G4-26/blob/main/LICENSE 
+#
 #  primary functions: 
 #  calculate_heading_from_velocity, twoecef2razel, cockpitview, and twoecef2enu
 #
@@ -41,7 +45,16 @@
 #
 # [rho,az,el]   = twoecef2razel (r1ecef, v1ecef, r2ecef, v2ecef, lat, lon);
 # [rho,look,el] =   cockpitview (r1ecef, v1ecef, r2ecef, v2ecef, lat, lon);
-# ------------------------------------------------------------------------------
+#
+#
+# Change History: Version 1.1, DJB (3/30/24):
+#                 Added explicit copyright statements in this revision. Users should consider this 
+#                 retroactive to the first version, prior version only had copyright applied at the GitHub
+#                 level. This change brings that copyright notice into this code.
+#
+#                 Version 1.0: Initial version
+#
+# -----------------------------------------------------------------------------------------------------------------
 
 import numpy as np
 import rot as rot

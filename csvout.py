@@ -1,3 +1,8 @@
+# -----------------------------------------------------------------------------------------------------------------
+# Copyright (c) 2023/2024: Douglas J. Buettner, PhD. GPL-3.0 license
+# specific terms of this GPL-3.0 license can be found here:
+# https://github.com/DrDougB/Starlink_G4-26/blob/main/LICENSE 
+#
 # 
 # Batch SOAP exported Text-to-CSV Converter in Sub-Directories
 # 
@@ -37,7 +42,14 @@
 # 5. Write the items to a new `.csv` file using commas as separators.
 # 
 # Requirements provided by Dr. Douglas Buettner.
-# 
+#
+# Change History: Version 1.1, DJB (3/30/24):
+#                 Added explicit copyright statements in this revision. Users should consider this 
+#                 retroactive to the first version, prior version only had copyright applied at the GitHub
+#                 level. This change brings that copyright notice into this code.
+#
+#                 Version 1.0: Initial version
+# -----------------------------------------------------------------------------------------------------------------
 
 import csv
 import os
